@@ -1,0 +1,48 @@
+@font-face { font-family: 'CCZoinks-Medium'; src: url("../fonts/cc-zoinks-medium.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+body { font: normal 13px Arial; background: transparent url("../images/bg-pattern.png") repeat 0 0; padding: 0; margin: 0; color: white; }
+
+.wrapper { margin: 0 auto; width: 960px; /*background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0.6) 35%, rgba(0, 0, 0, 0.6) 100%);*/ }
+
+.btn { background: transparent url("../images/btn-bg.png") no-repeat 0 0; font: bold 24px Helvetica; color: #3a4c00; text-transform: uppercase; text-decoration: none; text-align: center; vertical-align: middle; display: inline-block; width: 287px; padding: 23px 0 28px; }
+.btn:hover { background-position: 0 -75px; }
+
+h1 { font-family: "CCZoinks-Medium"; font-size: 30px; line-height: 38.5px; color: #f3bb3e; text-transform: uppercase; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; }
+
+header .breadcrumb { background: transparent url("../images/breadcrumb-bg.png") no-repeat 0 0; padding: 0 20px; margin: 30px 0 27px -18px; line-height: 21px; }
+header .inspiration { overflow: hidden; }
+header .inspiration-left { float: left; width: 50%; }
+header .inspiration-left .top .logo { margin-left: -24px; }
+header .inspiration-left .top .inspiration-text { padding: 26px 0 0 0px; vertical-align: top; margin-left: -2px; }
+header .inspiration-right { float: left; width: 50%; }
+header .inspiration-right .preview-photo { padding: 16px 0 0 24px; }
+header .bottom { padding: 37px 0 0 0; }
+header .bottom .text { display: inline-block; font-size: 17px; line-height: 18px; font-family: "CCZoinks-Medium"; background: transparent url("../images/icon-star.png") no-repeat -15px -12px; vertical-align: top; padding: 2px 18px 0 39px; text-transform: uppercase; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; text-shadow: 0 0 20px rgba(255, 255, 190, 0.3); vertical-align: middle; /*background: -webkit-linear-gradient(#fff, #e4e4e4);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;*/ }
+
+section { overflow: hidden; }
+section article { float: left; width: 295px; margin-right: 40px; }
+section article h1 { margin: 70px 0 24px; }
+section article .text p { padding: 0; margin: 0; line-height: 20px; }
+section article .text ul { list-style: none; padding: 0; margin: 0; }
+section article .text ul li { position: relative; line-height: 26px; padding-left: 24px; }
+section article .text ul li:after { content: ''; position: absolute; left: 0; top: 4px; width: 16px; height: 16px; background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABy1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARCQISCgMSDQUSDgYSEAciEgQjGgtEKw9ELA9FLhFGNhZGNxZGNxdHOhhHOxlHPBpHPhtULQtULgxZSyNjNg1kNw5oVCZpVCZpWSpyPQ50RRV0RhV6aTKDRhGJaCuJaSy0dSe2gjW6nUW7nku7n0u/aBnGkDvHlj3KrUvOcBzSiS7XpETZslPZs1PdfSHefiHfiCnfiSrovlbpwFjr0GXqgiDtjSjtjSntjijtjirukyzulSzuly7vmjHvnDPwnjnwoDrwoTrwoznwpDrxojvxpTrxpzrxqTvxqT7xqj/yrEPyrUXys0Pzr0Xzr0fzsEbzsUDzskPzskbzs0HztUjztkfzt0f0t0T0uET0ukn0u0n1u071vVH1vVL1vVP1vk/1v1H1v1X1wFT1wk31w1H2wFT2wVL2w072xFL2xlf2yFb3yFH3yVL3yVT3yVj3yVr3ylf3y1T3y1X3y1n3y173zFX3zFb3zVb4zVr4zVv4zV/4zlz4zl74z1z40Ff40WD40ln401341Fz51GL51WT51lz512X52F752V/62Wb62Wf62Wj622pAMWeKAAAAQXRSTlMADxwfa3h7h6m4x+bo6Ojo6Onp7e3t7e3t7e3t7e7u7vDw8PDw8vLy8vPz8/j4+Pj4+vr6+vz8/Pz8/f39/f39/RQYwbwAAAD2SURBVHgBYwABRhYOLi4OFkYGKGAV0DCwtNDXEGCF8NnlHWa05WY1THdQYQfLK0+a1p1npJvZMXWCElANE799f3VhlCh3eEZpt50QMwObdmt7TrSPMLd3WHpVlRYbA5d5S2dRXIAIt29kdn2VMScDd0JNLzc3Nzs7kNAri+Nm4A4t6ZORluBjF5OSMSkI4WbgMktsmjK5Tpy7cuKU5iQdDgYWNb/U2p4uSe6unsY0f3UWBkZeG7+I/HJJ7ori2EBbXkagw+ScPYNiklPig71cFVnBTpe1cnLz8HB3sVZgh3qOR9XQ0dFUUxAkD/U+Jzc3FxsziA0AdnIz8bjMxLkAAAAASUVORK5CYII=) no-repeat 0 0; }
+section article .text .item { overflow: hidden; float: left; margin-bottom: 11px; }
+section article .text .item .img-wrap { float: left; width: 77px; margin: 0; overflow: hidden; }
+section article .text .item .img-wrap h5 { font-size: 13px; line-height: 20px; margin: 6px 6px 6px 3px; font-weight: bold; }
+section article .text .item .desc { background: transparent url("../images/quotation-top.png") no-repeat left top; float: left; margin-left: 15px; }
+section article .text .item .desc .wrap { background: transparent url("../images/quotation-bottom.png") no-repeat right bottom; font-size: 13px; line-height: 20px; color: #e7f779; box-sizing: border-box; padding: 9px 4px 9px 20px; width: 191px; }
+section article.description { margin-right: 40px; }
+section article.description ul { padding: 25px 0 0; }
+section article.features { margin-right: 35px; }
+section article.features ul { margin: -5px 0 23px 0; }
+section article.features ul li:after { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAMAAADH72RtAAABYlBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARCQISCwMSDQQiEQMjGgkkHgsyGgUyGwU0IwlCIgZDJghTLAhVOA9YShtkPQ5nThtyPQtyPg1zQxB4XiGRUBCSUROTWhahWBKiWhSiWxWmeiSneimohzCvWhCvYhS2hynJqDzMaRLVozLbeBjbeRjgkCfhlynjqTLpgBnqih/rjCDrjyLsjSPsjyXskSPskiPslCXsliXtkiXtkifunyruoSvvoTDvoi7vpC3vpS3wpjLwqDLwqjHwqzXwrzPxsDTxtDnytTjytTvytjbyuDzyuT3zuj3zuzvzuzzzwED0v0T0wD/1wj71xED1xkX1yUr2yUL2ykf2zUT2zUX2z0v3z0f30Uv30kz300n300z31U341Ur41U341k341k74105zMI11AAAAPnRSTlMAAA0PHys7PUpNXGlreIeKmam4x9fm6Ojo6enp6+vr7e3u7u7w8PLy8vL19fX39/f39/f4+Pj6/Pz9/f39/TBDgPEAAADGSURBVHgBY4ACNgE2CIMRKsAsYSiAKsKlmiDFgiIiYJSqyYMiIpqVayYEFWETEAUC5aKSAmkQg5+VQUDfMyAmPb+0tDgnJcLHWZufgU1MzyMwMTsvvjAzztdJHagGqE3DJjYjKio6LdxagY8JZDITr5xFclhwbJKpOC/MLhHbyJCg0EgDAZjtnEr+Xm6O7t5+4sxQEX4dF3stWRMHVxUuqIiIlaUiP4egmp2uAESEXd5YkhdoAZ+MuTBUDYcgB9gCbmFuoAgAVUAenVfKxCQAAAAASUVORK5CYII=); }
+section article.testimonials { margin-right: 0; }
+
+.slider { text-align: center; }
+.slider h1 { margin: 22px 0 29px; }
+.slider .wrapper img { vertical-align: middle; }
+.slider .wrapper .s-item { -moz-box-shadow: 0 0 25px rgba(255, 255, 190, 0.32), inset 0 -2px 3px rgba(234, 111, 32, 0.5), inset 0 0 0 2px rgba(255, 255, 190, 0.4); /* outer glow, inner shadow and inner glow */ -webkit-box-shadow: 0 0 25px rgba(255, 255, 190, 0.32), inset 0 -2px 3px rgba(234, 111, 32, 0.5), inset 0 0 0 2px rgba(255, 255, 190, 0.4); /* outer glow, inner shadow and inner glow */ box-shadow: 0 0 25px rgba(255, 255, 190, 0.32), inset 0 -2px 3px rgba(234, 111, 32, 0.5), inset 0 0 0 2px rgba(255, 255, 190, 0.4); /* outer glow, inner shadow and inner glow */ }
+.slider .wrapper a img { padding: 60px; }
+
+footer { text-align: center; padding: 42px 0 120px; }
